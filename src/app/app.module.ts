@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
 import { TranslateLoader,TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { ComponentsModule } from './components/components.module';
+
 
 
 
@@ -20,6 +22,7 @@ export function httpTranslateLoaderFactory(http:HttpClient){
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    ComponentsModule,
     TranslateModule.forRoot({
       defaultLanguage:"en",
       loader:{

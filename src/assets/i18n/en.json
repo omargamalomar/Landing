@@ -1,7 +1,11 @@
 {
 	"dir":"ltr",
   "userInfo": {
-    "search": "Search",
-    "cart": "Cart"
+    "here":"Dear Families",
+    "lunch":"We are delighted to invite you to the exclusive launch of Abjadpolis, an interactive game designed to learn and engage children of Arab descent in Canada with their linguistic heritage.",
+    "bolis":"Abjadpolis A World of Learning",
+    "offers":"Abjadpolis offers a captivating and immersive environment where children can embark on an exciting Arabic adventure. Through interactive activities and engaging storylines, they will:",
+    "li1":"Strengthen their Arabic vocabulary",
+    "li2":"Develop a love for the Arabic language in a fun and interactive way"
   }
 }
