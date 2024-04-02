@@ -1,11 +1,25 @@
 {
-	"dir":"ltr",
+  "dir": "ltr",
   "userInfo": {
-    "here":"Dear Families",
-    "lunch":"We are delighted to invite you to the exclusive launch of Abjadpolis, an interactive game designed to learn and engage children of Arab descent in Canada with their linguistic heritage.",
-    "bolis":"Abjadpolis A World of Learning",
-    "offers":"Abjadpolis offers a captivating and immersive environment where children can embark on an exciting Arabic adventure. Through interactive activities and engaging storylines, they will:",
-    "li1":"Strengthen their Arabic vocabulary",
-    "li2":"Develop a love for the Arabic language in a fun and interactive way"
+    "here": "Dear Families",
+    "lunch": "We are delighted to invite you to the exclusive launch of Abjadpolis, an interactive game designed to learn and engage children of Arab descent in Canada with their linguistic heritage.",
+    "bolis": "Abjadpolis A World of Learning",
+    "offers": "Abjadpolis offers a captivating and immersive environment where children can embark on an exciting Arabic adventure. Through interactive activities and engaging storylines, they will:",
+    "li1": "Strengthen their Arabic vocabulary",
+    "li2": "Develop a love for the Arabic language in a fun and interactive way",
+    "join": "Join Us for the Launch Event",
+    "event": "This launch event provides a unique opportunity to:",
+    "one": "Be among the first to experience Abjadpolis firsthand",
+    "two": "Witness the joy of your children as they discover the wonders of Arabic learning",
+    "three": "Network with fellow  all Arab families and be with are all the time",
+    "details": "Event Details",
+    "date":"Date: Friday, April 28th,",
+    "time":"Time: X,",
+    "location":"Location: X,",
+    "register":"Registration Fee: $10 ",
+    "limit":"Limited Space Available - RSVP Today!",
+    "teckit":"Kindly confirm your attendance by (deadline) to secure your spot at this exclusive event.",
+    "conect":"Contact US",
+    "be":"Together, let us cultivate a love for the Arabic language in our children and ensure its enduring legacy."
   }
 }

@@ -29,37 +29,120 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 position-relative">
-        <img class="w-25 mt-5 position-absolute r-1" src="../../../assets/images/robot.svg" alt="" />
+        <img
+          class="w-25 mt-5 position-absolute r-1"
+          src="../../../assets/images/robot.svg"
+          alt=""
+        />
         <div
           class="text-content d-flex flex-column justify-content-center align-items-center image"
         >
           <h1 class="pt-5 text-center">{{ "userInfo.here" | translate }}</h1>
           <p class="text-center">{{ "userInfo.lunch" | translate }}</p>
         </div>
-				<img class="w-25 position-absolute r-2" src="../../../assets/images/robot.svg" alt="">
+        <img
+          class="w-25 position-absolute r-2"
+          src="../../../assets/images/robot.svg"
+          alt=""
+        />
       </div>
     </div>
   </div>
-	<img src="../../../assets/images/trees.svg" alt="">
+  <img src="../../../assets/images/trees.svg" alt="" />
 </section>
 <section class="sec3">
-	<div class="container">
-		<div class="row">
-				<div class="col-md-6">
-					<div class="image mt-5">
-						<img src="../../../assets/images/heap.svg" alt="">
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="text-content one mt-5 pt-3">
-					<h1>{{"userInfo.bolis"|translate}}</h1>
-					<p>{{"userInfo.offers"|translate}}</p>
-					<ul>
-						<li>{{"userInfo.li1"|translate}}</li>
-						<li>{{"userInfo.li2"|translate}}</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-12">
+        <div class="image mt-5">
+          <img src="../../../assets/images/heap.svg" alt="" />
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 coco">
+        <div class="text-content one mt-5 pt-3">
+          <h3 class="mb-3">{{ "userInfo.bolis" | translate }}</h3>
+          <p>{{ "userInfo.offers" | translate }}</p>
+          <ol type="A">
+            <li>{{ "userInfo.li1" | translate }}</li>
+            <li>{{ "userInfo.li2" | translate }}</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec4 pt-3">
+  <div class="container">
+    <h2 class="text-center fw-bolder pt-5">
+      {{ "userInfo.join" | translate }}
+    </h2>
+    <h5 class="text-center fw-bolder pb-5">
+      {{ "userInfo.event" | translate }}
+    </h5>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+        <a class="mini-box">
+          <i><img src="assets/images/rocket.png" alt="" /></i>
+          <strong>{{ "userInfo.one" | translate }}</strong>
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+        <a class="mini-box">
+          <i><img src="assets/images/rocket.png" alt="" /></i>
+          <strong>{{ "userInfo.two" | translate }}</strong>
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+        <a class="mini-box active">
+          <i><img src="assets/images/rocket.png" alt="" /></i>
+          <strong>{{ "userInfo.three" | translate }}</strong>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="sec5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-12">
+        <img src="../../../assets/images/city.svg" alt="" />
+      </div>
+      <div class="col-lg-6 col-md-12">
+        <div class="text-content">
+          <h3 class="text-center pt-5 fw-bolder">
+            {{ "userInfo.details" | translate }}
+          </h3>
+          <p class="text-center mb-4">{{ "userInfo.limit" | translate }}</p>
+          <ul
+            class="d-flex list-unstyled justify-content-center align-content-center "
+          >
+            <li>{{ "userInfo.date" | translate }}</li>
+            <li>{{ "userInfo.time" | translate }}</li>
+            <li>{{ "userInfo.location" | translate }}</li>
+            <li>{{ "userInfo.register" | translate }}</li>
+          </ul>
+          <p class="text-center">{{ "userInfo.teckit" | translate }}</p>
+          <p class="text-center">{{ "userInfo.be" | translate }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="sec6">
+  <div class="container">
+    <div class="row">
+      <h2 class="text-center pt-5 fw-bolder">{{"userInfo.conect"|translate}}</h2>
+      <div class="col-md-12">
+        <div class="rg">
+        <form action="">
+          <div class="mb-3"><input style="width: 300px;" class="form-control" type="text" placeholder="Name"></div>
+          <div class="mb-3"><input style="width: 300px;" class="form-control"  type="text" placeholder="Email"></div>
+          <div class="mb-3"><input style="width: 300px;" class="form-control"  type="email" placeholder="Phone"></div>
+          <div class="mb-3"><input class="btn sub d-block mx-auto" type="submit" value="Send"></div>
+        </form> 
+      </div>
+      </div>
+    </div>
+  </div>
 </section>
